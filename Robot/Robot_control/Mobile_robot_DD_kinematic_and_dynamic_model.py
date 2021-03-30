@@ -19,11 +19,11 @@ ypath = []
 xrref = []
 yrref = []
 
-m = 0.75
-J = 0.001
-L = 0.075
-r = 0.024
-d = 0.01
+m = 0.75  #kg
+J = 0.001 #kgm^2
+L = 0.075 #m
+r = 0.024 #m
+d = 0.01  #m
 
 def rreeff(t):
 	freq   = 2*math.pi/30;
