@@ -1,5 +1,5 @@
 import numpy as np
-class call:
+class call():
 	def __init__(self):
 		self.x = 1
 		self.u = 2
