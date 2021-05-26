@@ -3,7 +3,7 @@ import math
 
 def normalize_angle(theta):
 	"""Normalize an angle theta to theta_norm so that: 0 <= theta_norm < 2 * np.pi"""
-	twopi =  math.pi #* 2
+	twopi =  2*math.pi #* 2
 
 	if theta >= twopi:
 		m = math.floor(theta/twopi)
@@ -20,4 +20,4 @@ def normalize_angle(theta):
 	return theta_norm
 
 
-print(normalize_angle(6))
+print(normalize_angle(3*math.pi))
