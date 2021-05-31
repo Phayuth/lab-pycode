@@ -2,12 +2,13 @@ import math
 import numpy as np
 
 
-n = 100
-T = 1.
+n = 150
+T = 150
 
 times = np.linspace(0.,T,n)
-# print(times)
-
+print(times)
+print(times[0:len(times)])
+print(list(times))
 
 # print(np.random.normal(0,0.1))
 
